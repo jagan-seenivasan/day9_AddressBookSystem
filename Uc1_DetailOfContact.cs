@@ -5,8 +5,10 @@ using System.Text;
 
 namespace addressBookSystem
 {
-        public class Uc1_DetailOfContact
-        {
+     public class Uc1_DetailOfContact
+     {
+        public void Detail()
+       {
         public string FirstName;
         public string LastName;
         public string Address;
@@ -15,5 +17,6 @@ namespace addressBookSystem
         public string Zip;
         public string PhoneNumber;
         public string Email;
-        }
+       }
+     } 
 }
